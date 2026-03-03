@@ -1,0 +1,16 @@
+{
+  "name": "image-scraper",
+  "version": "1.0.0",
+  "description": "Web app to download all images from a URL at the highest resolution",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "express": "^4.21.2"
+  }
+}
