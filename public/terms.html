@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms of Service — Image Scraper</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:      #0c0c12;
+      --surface: #13131f;
+      --border:  #2a2a40;
+      --accent:  #7c6eff;
+      --accent2: #a78bfa;
+      --text:    #e8e8f0;
+      --muted:   #7878a0;
+      --radius:  12px;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 0 0 80px;
+      line-height: 1.7;
+    }
+
+    header {
+      padding: 28px 32px;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, #0f0f1e 0%, var(--bg) 100%);
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .logo-icon {
+      width: 36px; height: 36px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      border-radius: 9px;
+      display: grid; place-items: center;
+      font-size: 17px;
+      flex-shrink: 0;
+      text-decoration: none;
+    }
+
+    header a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.15s;
+    }
+    header a:hover { color: var(--text); }
+
+    .breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+    .breadcrumb span { opacity: 0.5; }
+
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 32px;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 8px;
+    }
+
+    .last-updated {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 40px;
+    }
+
+    section {
+      margin-bottom: 36px;
+    }
+
+    h2 {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--accent2);
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    p {
+      font-size: 15px;
+      color: #c8c8d8;
+      margin-bottom: 12px;
+    }
+
+    ul {
+      list-style: none;
+      margin-bottom: 12px;
+    }
+
+    ul li {
+      font-size: 15px;
+      color: #c8c8d8;
+      padding: 5px 0 5px 20px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: '–';
+      position: absolute;
+      left: 0;
+      color: var(--muted);
+    }
+
+    .highlight-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      margin-bottom: 12px;
+      font-size: 15px;
+      color: #c8c8d8;
+    }
+
+    .contact-link {
+      color: var(--accent2);
+      text-decoration: none;
+    }
+    .contact-link:hover { text-decoration: underline; }
+
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 18px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--text);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      transition: background 0.15s;
+      margin-top: 12px;
+    }
+    .back-btn:hover { background: var(--border); }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="/" class="logo-icon">🖼</a>
+  <div class="breadcrumb">
+    <a href="/">Image Scraper</a>
+    <span>/</span>
+    <span>Terms of Service</span>
+  </div>
+</header>
+
+<main>
+  <h1>Terms of Service</h1>
+  <p class="last-updated">Last updated: March 2026</p>
+
+  <div class="highlight-box">
+    By using Image Scraper, you agree to these terms. Please read them carefully before using the service.
+  </div>
+
+  <section>
+    <h2>1. About This Service</h2>
+    <p>Image Scraper ("the Service") is a web-based tool that allows users to extract and download images from publicly accessible web pages. The Service is provided for lawful personal and professional use only.</p>
+  </section>
+
+  <section>
+    <h2>2. Your Responsibilities</h2>
+    <p>By using this Service, you agree that you are solely responsible for:</p>
+    <ul>
+      <li>Ensuring you have the legal right to download any images you obtain through this Service</li>
+      <li>Complying with the copyright laws of your country and any applicable international copyright law</li>
+      <li>Respecting the terms of service of any website you scrape images from</li>
+      <li>How you use, store, distribute, or publish any downloaded images</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. Prohibited Uses</h2>
+    <p>You must not use this Service to:</p>
+    <ul>
+      <li>Download images you do not have the right to reproduce or use</li>
+      <li>Infringe the intellectual property rights of any third party</li>
+      <li>Harvest or collect images of identifiable individuals without their consent</li>
+      <li>Facilitate harassment, stalking, or any unlawful surveillance</li>
+      <li>Scrape websites in violation of their terms of service or robots.txt directives</li>
+      <li>Use downloaded content for commercial purposes without appropriate licensing</li>
+      <li>Engage in any activity that violates applicable law or regulation</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. Copyright & Intellectual Property</h2>
+    <p>This Service does not host, store, or claim ownership of any images. All images remain the property of their respective copyright holders.</p>
+    <p>The Service acts solely as a technical intermediary tool. Downloading a copyrighted image through this Service does not grant you any rights to that image. You are responsible for obtaining appropriate permissions or licences from copyright owners before using their content.</p>
+  </section>
+
+  <section>
+    <h2>5. Disclaimer of Liability</h2>
+    <p>The Service is provided "as is" without warranties of any kind. To the fullest extent permitted by law:</p>
+    <ul>
+      <li>We are not responsible for how you use downloaded images</li>
+      <li>We are not liable for any copyright infringement committed by users of this Service</li>
+      <li>We are not liable for any damages arising from your use of the Service</li>
+      <li>We do not guarantee the availability, accuracy, or continuity of the Service</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>6. Takedown Requests</h2>
+    <p>If you are a copyright holder and believe this Service has been used to infringe your rights, or if you have any legal concerns, please contact us and we will respond promptly.</p>
+  </section>
+
+  <section>
+    <h2>7. Changes to These Terms</h2>
+    <p>We may update these Terms of Service from time to time. Continued use of the Service after changes constitutes acceptance of the updated terms. The date at the top of this page indicates when the terms were last revised.</p>
+  </section>
+
+  <section>
+    <h2>8. Governing Law</h2>
+    <p>These terms are governed by the laws of England and Wales. Any disputes shall be subject to the exclusive jurisdiction of the courts of England and Wales.</p>
+  </section>
+
+  <a href="/" class="back-btn">← Back to Image Scraper</a>
+</main>
+
+</body>
+</html>
