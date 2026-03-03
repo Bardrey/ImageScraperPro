@@ -322,6 +322,67 @@
     #empty .empty-icon { font-size: 48px; opacity: 0.3; }
     #empty p { font-size: 15px; }
     #empty small { font-size: 13px; opacity: 0.7; }
+
+    /* ── Mobile responsive ── */
+    @media (max-width: 600px) {
+      header {
+        padding: 20px 16px 16px;
+      }
+
+      .logo {
+        margin-bottom: 16px;
+      }
+
+      .logo h1 { font-size: 17px; }
+      .logo p  { font-size: 12px; }
+
+      .input-row {
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      .url-input {
+        font-size: 16px; /* prevents iOS zoom on focus */
+        width: 100%;
+      }
+
+      #scan-btn {
+        width: 100%;
+        padding: 13px;
+        font-size: 15px;
+      }
+
+      main { padding: 16px; }
+
+      #toolbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+
+      .toolbar-left {
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      #download-btn {
+        width: 100%;
+        padding: 13px;
+        font-size: 15px;
+        text-align: center;
+      }
+
+      #grid {
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+        gap: 8px;
+      }
+
+      .download-card {
+        min-width: unset;
+        width: calc(100vw - 40px);
+        padding: 28px 24px;
+      }
+    }
   </style>
 </head>
 <body>
